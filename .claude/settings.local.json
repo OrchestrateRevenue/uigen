@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm audit:*)",
+      "Bash(npm install:*)",
+      "Bash(grep:*)",
+      "Bash(npm run:*)",
+      "Bash(npx vitest:*)",
+      "Bash(open:*)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"Create a simple dashboard card component showing stats\"\"\"\"}],\"\"\"\"projectId\"\"\"\":\"\"\"\"test-eval\"\"\"\"}' --max-time 30)",
+      "Bash(curl -v -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"Create a simple dashboard card component showing stats\"\"\"\"}],\"\"\"\"projectId\"\"\"\":\"\"\"\"test-eval\"\"\"\"}' --max-time 30)"
+    ]
+  }
+}
